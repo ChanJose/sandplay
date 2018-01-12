@@ -1,0 +1,102 @@
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3,
+h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;       
+    padding: 0;
+}
+
+body {
+  font-size: 12px; 
+  font-family: "Microsoft YaHei", tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  color: #000000;
+  background-color: #ffffff;
+}
+    .header {
+        width: 1100px;
+        height: 110px;
+        margin: 0 auto;
+        border-bottom: 1px solid #696565;
+    }
+        .header h3 {
+            float: left;
+            font-size: 24px;
+            height: 34px;
+            line-height: 34px;
+            margin-top: 34px;
+            font-weight: normal;
+        }
+        .header .have-account {
+            font-size: 16px;
+            float: right;
+            margin-top: 40px;
+        }
+            .header .have-account span {
+                color: #918c8c;
+            }
+            .header .have-account a {
+                text-decoration: none;
+                color: #000000;
+                cursor: pointer;
+            }
+            .header .have-account a:hover {
+                text-decoration: underline;
+            }
+
+    .register-wrap {
+        width: 440px;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+        .register-wrap .input-tip {
+            width: 344px;
+            height: 27px;
+            color: rgb(156, 154, 154);
+            padding-top: 5px;
+            font-size: 12px;
+            margin-left: 74px;
+            visibility: hidden;
+        }
+            .register-wrap .input-tip i {
+                display: block;
+                width: 16px;
+                height: 16px;
+                overflow: hidden;
+                float: left;
+                margin-top: 3px;
+                background: url(../img/tip1.png) no-repeat;
+            }
+            .register-wrap .input-tip span {
+                display: inline-block;
+                height: 22px;
+                line-height: 22px;
+                padding-left: 2px;
+            }
+            .register-wrap p label {
+                display: inline-block;
+                width: 70px;
+                height: 34px;
+                line-height: 34px;
+                text-align: right;
+                font-weight: 500;
+            }
+            .register-wrap input {
+                display: inline-block;
+                width: 300px;
+                height: 34px;
+                line-height: 34px;
+                padding-left: 10px;
+            }
+            
+        .register-wrap input.register-btn {
+            width: 100%;
+            height: 38px;
+            line-height: 38px;
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: 5px;
+            background-color: #f40;
+            outline: none; /* 去除点击时默认出现的蓝条 */
+            cursor: pointer;
+            margin-top: 25px;
+        }
+                

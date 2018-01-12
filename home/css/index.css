@@ -1,0 +1,97 @@
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3,
+h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;       
+    padding: 0;
+}
+
+body {
+  font-size: 12px; 
+  font-family: "Microsoft YaHei", tahoma, arial, 'Hiragino Sans GB', '\5b8b\4f53', sans-serif;
+  color: #404040;
+  background-color: #ffffff;
+}
+
+ul, li {
+    list-style: none;
+}
+    #header {
+        height: 70px;
+        padding: 0 15px;
+        background-color: #e7e7e7;
+    }
+        #header .welcome {
+            color: rgb(41, 40, 40);
+            font-size: 14px;
+            display: block;
+            float: left;
+            height: 70px;
+            line-height: 70px;
+            cursor: pointer;
+        }
+        #header .welcome:hover {
+            font-weight: bold;
+        }
+
+        .header-right {
+            float: right;
+            padding: 14px 0;
+        }   
+            .header-right input {
+                display: inline-block;
+                width: 80px;
+                height: 40px;
+                font-size: 14px;
+                letter-spacing: 4px;
+                border-radius: 4px;
+                margin-right: 30px;
+                border: 1px solid rgb(196, 192, 192);
+                color: rgb(17, 16, 16);
+                background-color: #f1ecec;
+                cursor: pointer;
+                outline: none; /* 去除点击时默认出现的蓝条 */
+            }
+            .header-right a {
+                display: inline-block;
+                padding: 0 15px;
+                text-decoration: none;
+                color: #777;
+                font-size: 14px;
+                cursor: pointer;
+            }
+            .header-right a:hover {
+                color: rgb(77, 76, 76);
+                text-decoration: underline;
+            }
+    
+    #main {
+        width: 100%;
+        position: relative;
+    }
+
+    /* 自定义类 */
+    .main-li {
+        position: absolute;
+    }
+
+    #main .menu-bar {
+        width: 150px;
+        border-left: 1px solid #ccc;
+        float: right;
+        padding: 0 15px;
+    }
+        .menu-li {
+            width: 150px;
+            height: 150px;
+            margin-top: 4px;
+            background-color: red;
+        }
+            .cancel-icon {
+                display: block;
+                width: 16px;
+                height: 16px;
+                float: right;
+                cursor: pointer;
+                background-color: #ccc;
+                background: url(../img/cancel.png) no-repeat;
+                /* visibility: hidden; */
+            }
